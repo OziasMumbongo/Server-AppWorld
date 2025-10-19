@@ -499,6 +499,6 @@ app.delete('/Orders/:id', async (req, res) => {
 
 app.listen(PORT, async () => {
   await connectToMongo()
-  console.log(`Server running at http://localhost:${port}`);
+  console.log(`Server running at http://localhost:${PORT}`);
   console.log("hi Ozias")
 })
